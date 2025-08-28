@@ -1,0 +1,30 @@
+body {
+    background-color: darkslategrey;
+    color: aliceblue;
+    text-align: center;
+}
+div.container{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(65, 107, 107);
+    width: 50%;
+    height: auto;
+    margin: auto;
+    box-shadow: 4px 4px 8px 1px gray;
+}
+input {
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    border: none;
+}
+button:hover {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
