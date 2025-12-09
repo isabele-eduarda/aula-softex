@@ -14,7 +14,3 @@ const carro2 = new Carro ("Renaut", "Sandero", 2007);
 
 console.log (carro1.detalhes());
 console.log (carro2.detalhes());
-
-
-const p = document.getElementById("h");
-p.textContent= carro1.detalhes();
