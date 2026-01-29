@@ -72,6 +72,7 @@ document.addEventListener ("DOMContentLoaded", () => {
         linha.appendChild(celSituacao);
 
         tabela.appendChild(linha);
+        
     }
 
     });

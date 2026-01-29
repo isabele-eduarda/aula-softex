@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(https://media2.dev.to/dynamic/image/width=1280,height=720,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fi%2Fg9bn7riawj2x6erhsduo.jpg);
+    backdrop-filter: blur (100%);
+    background-size: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div#quadro {
+    width: 420px;
+    padding: 25px;
+    text-align: center;
+    background-color: #4F772D;
+    border: 3px solid #C57B57;
+    border-radius: 12px;
+    color: aliceblue;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+    color: #E0CA3C;
+    margin-bottom: 15px;
+}
+
+h3 {
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    border-radius: 6px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+}
+button {
+    background-color: #a19230;
+    color: aliceblue;
+    border-radius: 50px;
+    border: none;
+}
+button:hover {
+    cursor: pointer;
+}
